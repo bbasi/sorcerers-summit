@@ -1,0 +1,45 @@
+{
+  "resources": [
+    "./_ot/audiosprite.ogg",
+    "./_ot/audiosprite.m4a",
+    "./_ot/audiosprite.mp3",
+    "./_ot/audiosprite.ac3"
+  ],
+  "spritemap": {
+    "btn1": {
+      "start": 0,
+      "end": 0.2573015873015873,
+      "loop": false
+    },
+    "death": {
+      "start": 2,
+      "end": 3.308548752834467,
+      "loop": false
+    },
+    "helicopter": {
+      "start": 5,
+      "end": 7.627755102040816,
+      "loop": false
+    },
+    "lazer": {
+      "start": 9,
+      "end": 9.61936507936508,
+      "loop": false
+    },
+    "over1": {
+      "start": 11,
+      "end": 11.907891156462584,
+      "loop": false
+    },
+    "slide_long": {
+      "start": 13,
+      "end": 13.492721088435374,
+      "loop": false
+    },
+    "slide_short": {
+      "start": 15,
+      "end": 15.301111111111112,
+      "loop": false
+    }
+  }
+}

@@ -1,4 +1,4 @@
-# Sorcerers Summit BB
+# Sorcerers Summit
 **V 1.1.0**
 
 ## credits

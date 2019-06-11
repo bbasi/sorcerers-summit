@@ -1,6 +1,8 @@
 # Sorcerers Summit
 **V 1.1.0**
 
+[play](http://www.balrajbasi.com/games/sorcerers_summit/)
+
 ## credits
 [Balraj Basi](http://www.balrajbasi.com)\
 [Justin Nichols](http://agamedesigner.com)\

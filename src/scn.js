@@ -50,15 +50,30 @@ export class scn_bkgd extends scn {
     bb_img.crt_img(this,'bckgd/moon');
     bb_img.crt_img(this,'bckgd/planet');
     bb_img.crt_img(this,'bckgd/clouds_1');
-    bb_img.crt_spr(this,'bckgd/anim/island/','idle-island',12);
-    bb_img.crt_img(this,'bckgd/mountains_2');
-    bb_img.crt_spr(this,'bckgd/anim/mist_4/','idle-mst4',15);
-    bb_img.crt_img(this,'bckgd/mountains_1');
-    bb_img.crt_spr(this,'bckgd/anim/mist_3/','idle-mst3',15);
-    bb_img.crt_spr(this,'bckgd/anim/tower_2/','idle-twr2',7);
-    bb_img.crt_spr(this,'bckgd/anim/mist_2/','idle-mst2',15);
-    bb_img.crt_spr(this,'bckgd/anim/tower_1/','idle-twr1',7);
-    bb_img.crt_spr(this,'bckgd/anim/mist_1/','idle-mst1',15);
+
+    if(this.sys.game.device.os.desktop){
+      bb_img.crt_spr(this,'bckgd/anim/island/','idle-island',12);
+      bb_img.crt_img(this,'bckgd/mountains_2');
+      bb_img.crt_spr(this,'bckgd/anim/mist_4/','idle-mist4' ,15);
+      bb_img.crt_img(this,'bckgd/mountains_1');
+      bb_img.crt_spr(this,'bckgd/anim/mist_3/' ,'idle-mist3',15);
+      bb_img.crt_spr(this,'bckgd/anim/tower_2/','idle-twr2' , 7);
+      bb_img.crt_spr(this,'bckgd/anim/mist_2/' ,'idle-mist2',15);
+      bb_img.crt_spr(this,'bckgd/anim/tower_1/','idle-twr1' , 7);
+      bb_img.crt_spr(this,'bckgd/anim/mist_1/' ,'idle-mist1',15);
+    }
+    else{
+      bb_img.crt_spr(this,'bckgd/anim/island_basic/','idle-island-basic',4);
+      bb_img.crt_img(this,'bckgd/mountains_2');
+      bb_img.crt_img(this,'bckgd/mist_4');
+      bb_img.crt_img(this,'bckgd/mountains_1');
+      bb_img.crt_img(this,'bckgd/mist_3');
+      bb_img.crt_spr(this,'bckgd/anim/tower_2_basic/','idle-twr2-basic',4);
+      bb_img.crt_img(this,'bckgd/mist_2');      
+      bb_img.crt_spr(this,'bckgd/anim/tower_1_basic/','idle-twr1-basic',4);
+      bb_img.crt_img(this,'bckgd/mist_1');
+    }
+    
     bb_img.crt_img(this,'bckgd/bridge');
     bb.camera.rgstr(this.cameras.main);
     this.scene.launch('scn-game');

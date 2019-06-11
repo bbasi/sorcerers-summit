@@ -5,8 +5,8 @@ import bb from './bb'
 export default (
 class bb_img {
   static crt_img(scn,nme,x=0.50,y=0.50){ return new bb_img(scn,nme,x,y) }
-  static crt_spr(scn,prfx,anim){
-    let anims = [{key:anim, prefix:prfx,end:3,loop:true}]
+  static crt_spr(scn,prfx,anim,frms=3){
+    let anims = [{key:anim, prefix:prfx,end:frms,loop:true}]
     let img   = new bb_img(scn,`${prfx}00`,0.50,0.50,{anims:anims,rate:10});
     img.play(anim);
     return img;

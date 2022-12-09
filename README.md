@@ -3,6 +3,8 @@
 
 [play](http://www.balrajbasi.com/games/sorcerers_summit/)
 
+<img src="assets/demo.gif" width="500">
+
 ## credits
 [Balraj Basi](http://www.balrajbasi.com)\
 [Justin Nichols](http://agamedesigner.com)\
